@@ -9,8 +9,23 @@
   </head>
   <body>
     <div class="container">
-      <h1>Avengers Character Search</h1>
-      <button id="searchBtn" class="search-button">Search</button>
+      <div class="header">
+        <h1>AVENGERS CHARACTER SEARCH</h1>
+      </div>
+      <div class="content">
+        <label for="searchInput">Search by Full Name or Alias</label>
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="e.g. Captain America or Steve Rogers"
+          />
+          <button id="searchBtn" class="search-button">Search</button>
+        </div>
+        <h2>RESULT</h2>
+        <hr />
+        <div id="result" class="result"></div>
+      </div>
     </div>
   </body>
 </html>
